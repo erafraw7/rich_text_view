@@ -160,6 +160,7 @@ class _RichTextViewState extends State<RichTextView> {
     return !widget.editable
         ? Container(
             child: ParsedText(
+                moreText: 'View more',
                 text: widget.text!.trim(),
                 linkStyle: linkStyle,
                 onMore: () {
