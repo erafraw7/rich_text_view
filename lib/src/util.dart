@@ -144,7 +144,7 @@ class ParsedText extends StatelessWidget {
 
           if (mapping != null) {
             if (mapping.renderText != null) {
-              Map<String, String> result =
+              Map<String, String?> result =
                   mapping.renderText!(str: matchText, pattern: pattern);
 
               widget = TextSpan(
